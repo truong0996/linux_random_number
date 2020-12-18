@@ -1,0 +1,1 @@
+cmd_/home/thuy13705/ldd/project/linux_random_number/random_number.ko := ld -r -m elf_i386 -T ./scripts/module-common.lds --build-id  -o /home/thuy13705/ldd/project/linux_random_number/random_number.ko /home/thuy13705/ldd/project/linux_random_number/random_number.o /home/thuy13705/ldd/project/linux_random_number/random_number.mod.o ;  true
