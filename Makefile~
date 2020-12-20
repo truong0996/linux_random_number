@@ -1,8 +1,0 @@
-obj-m += char_dev_random.o
-
-all:
-	make -C /lib/modules/$(shell uname -r)/build/ M=$(PWD) modules
-	$(CC) test_random.c -o test
-clean:
-	make -C /lib/modules/$(shell uname -r)/build/ M=$(PWD) clean
-	rm test
